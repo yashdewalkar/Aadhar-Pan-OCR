@@ -1,0 +1,30 @@
+The project aims to develop a web application that utilizes OCR (Optical Character Recognition) technology to validate Aadhar and Pan Card documents. The combination of Tesseract OCR and FastAPI framework will be used to implement the solution.
+
+The application will provide an interface where users can upload scanned or captured images of Aadhar or Pan Card documents. The uploaded images will be processed using Tesseract OCR, which will extract the text content from the documents. The extracted text will then be analyzed and validated against the predefined format and rules for Aadhar and Pan Card documents.
+
+Key Features:
+
+Document Upload: Users can upload scanned or captured images of Aadhar or Pan Card documents through the web interface.
+
+OCR Processing: The uploaded images will be processed using Tesseract OCR to extract the text content from the documents.
+
+Text Analysis: The extracted text will be analyzed to identify key information such as Aadhar number, name, father's name, date of birth, and Pan Card number.
+
+Validation Rules: The extracted information will be validated against the predefined format and rules for Aadhar and Pan Card documents.
+
+Error Handling: If any validation errors are detected, appropriate error messages will be displayed to the user.
+
+Response Generation: The application will generate a response indicating whether the document is valid or invalid, along with any additional details or errors found during the validation process.
+Benefits:
+
+Automation:
+
+The project automates the manual process of Aadhar and Pan Card document validation, saving time and effort for users.
+
+Accuracy: By utilizing OCR technology, the application aims to achieve high accuracy in extracting and validating the document information.
+
+Efficiency: The fast processing of documents through the application provides quick results, enhancing overall efficiency.
+
+User-Friendly: The user interface of the web application will be intuitive and easy to use, ensuring a seamless experience for users.
+
+Overall, the Validation of Aadhar & Pan Card using OCR project combines the power of Tesseract OCR and the flexibility of FastAPI to create a reliable and efficient solution for validating Aadhar and Pan Card documents.
